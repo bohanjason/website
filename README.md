@@ -51,7 +51,7 @@ mysqladmin create -u <username> -p ottertune
 
 ```
 python manage.py makemigrations website
-python manage.py migrate website
+python manage.py migrate 
 ```
 
 ##### 5. Create the super user
@@ -63,7 +63,7 @@ python manage.py createsuperuser
 ##### 6. Preload the static database data
 
 ```
-python manage.py loaddata ./script/preload/*
+python manage.py loaddata ./preload/*
 ```
     
 ##### 7. Start the message broker, celery worker, and website server
