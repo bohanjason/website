@@ -24,6 +24,7 @@
 
 # Logs and databases #
 ######################
+log/
 *.log
 *.sql
 *.sqlite
@@ -38,3 +39,12 @@
 ehthumbs.db
 Thumbs.db
 
+# Eclipse #
+###########
+.project
+.pydevproject
+.settings
+
+# Raw data files #
+##################
+data/media/*
